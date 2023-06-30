@@ -1,3 +1,9 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+  :root {
+    --primary-color: #9B9ECE;
+    --secondary-color: #424B54;
+}
 html {
   font-size: 14px;
 }
@@ -19,4 +25,26 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: #78d7ff;
 }
+
+
+
+a {
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 4px 8px 4px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.bg-white{
+
+  background-color: #424B54  !important;
+}
+
+

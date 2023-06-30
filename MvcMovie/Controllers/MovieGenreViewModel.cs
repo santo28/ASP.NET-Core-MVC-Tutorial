@@ -9,7 +9,6 @@ public class MovieGenreViewModel
     public SelectList? Genres { get; set; }
     public string? MovieGenre { get; set; }
 
-    public string? ReleaseDate { get; set; }
-
+    // public string? Rating { get; set; }
     public string? SearchString { get; set; }
 }
